@@ -1,0 +1,17 @@
+pandas
+numpy
+pyarrow
+openpyxl
+duckdb
+tabulate
+pypdf
+llama-cpp-python
+matplotlib
+plotly
+seaborn
+scikit-learn
+nbformat
+nbconvert
+ipykernel
+catboost
+
