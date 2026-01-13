@@ -16,9 +16,15 @@ python3 -m pip install -r requirements.txt
 /Users/dinesh/Library/Python/3.9/bin/jupyter-nbconvert --to notebook --inplace --execute notebooks/telco_churn.ipynb
 ```
 
-## Model
+## Results (latest run)
 - Best model: CatBoost with feature engineering and tuned decision threshold (~0.46).
-- Recent metrics (80/20 stratified split): accuracy ~0.796, ROC AUC ~0.842, PR AUC ~0.652.
+- Test metrics (80/20 stratified split):
+  - Accuracy: 0.796
+  - Precision: 0.629
+  - Recall: 0.567
+  - F1: 0.596
+  - ROC AUC: 0.842
+  - PR AUC: 0.652
 
 ## Notes
 - Dataset is public (Kaggle Telco Customer Churn). Included here for convenience.
