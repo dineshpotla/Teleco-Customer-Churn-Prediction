@@ -18,7 +18,6 @@ python3 -m pip install -r requirements.txt
 
 ## Results (latest run)
 - Best model: CatBoost with feature engineering and tuned decision threshold (~0.46).
-- Test metrics (80/20 stratified split):
   - Accuracy: 0.796
   - Precision: 0.629
   - Recall: 0.567
